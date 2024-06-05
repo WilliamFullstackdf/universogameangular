@@ -1,0 +1,60 @@
+.toolbar-black {
+  background-color: black;
+}
+.text-white {
+  color: #fff;
+}
+.text-white {
+  color: #fff;
+  position: relative;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.redesociais {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.redesociais span {
+  margin-right: 10px;
+}
+
+.right-content nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#buscador {
+  width: 50%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#buscador mat-form-field {
+  width: 300px;
+}
+
+.container-fluid nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.search-button {
+  background-color: transparent;
+  color: green;
+  border: 2px solid green;
+}
+
+.search-button:hover {
+  background-color: green;
+  color: white;
+}

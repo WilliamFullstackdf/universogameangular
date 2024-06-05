@@ -1,0 +1,30 @@
+/*banner*/
+#section-banners img {
+    height: 500px;
+    
+    
+    }
+    
+    /*Produtos vendidos*/
+    #section-vendidos {
+        text-align: center;
+    }
+    #section-vendidos h2 {
+        font-weight: bold;
+        padding: 20px;
+    
+    }
+    #section-vendidos img {
+        height: 250px;
+        border-radius: 10px;
+    }
+    #section-vendidos .card {
+        margin: 5px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+    #section-vendidos .preco {
+        color: red;
+        font-weight: bold;
+        font-size: 18px;
+    }

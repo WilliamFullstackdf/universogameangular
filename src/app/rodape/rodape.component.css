@@ -1,0 +1,31 @@
+/*Rodapé*/
+footer {
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    height: 80px;
+    padding-top: 25px;
+    margin-top: 60px;
+
+}
+footer p {
+    font-weight: bold;
+    padding: 10px;
+}
+/*Botão Voltar topo*/
+#btnTopo {
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
+    display: none; 
+    background-color: #0408ff;
+    color: #ffffff;
+    border: none;
+    padding: 11px 21px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#btnTopo:hover {
+    background-color: #00e1ff;
+}

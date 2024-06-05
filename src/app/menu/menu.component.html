@@ -1,0 +1,30 @@
+<header>
+    <mat-toolbar class="toolbar-black">
+        <div class="left-content">
+          <span><a routerLink="inicio"><img src="./assets/img/logo.png" alt="Logo" height="50"></a></span>
+          <div class="redesociais">
+            <span class="text-white">Sigam nos:</span>
+            <a href="http://www.facebook.com.br"><img src="./assets/img/facebook-logo-png-transparent-background-14.png" alt="Facebook" width="30" height="30"></a>
+            <a href="http://www.instagram.com.br"><img src="./assets/img/instagram.png" alt="Instagram" width="30" height="30"></a>
+          </div>
+        </div>
+        <span class="spacer"></span>
+        <div class="right-content">
+          <nav>
+            <a mat-button routerLink="#" class="text-white">Promoções</a>
+            <a mat-button routerLink="#" class="text-white">Consoles</a>
+            <a mat-button routerLink="#" class="text-white">Jogos</a>
+            <a mat-button routerLink="login" class="text-white">>>Login<<<</a>
+          </nav>
+        </div>
+      </mat-toolbar>
+      
+      <div id="buscador" class="container-fluid">
+        <form class="d-flex align-items-center justify-content-center" role="search">
+          <mat-form-field class="flex-grow-1">
+            <input matInput placeholder="O que deseja buscar">
+          </mat-form-field>
+          <button mat-raised-button class="search-button" color="green" type="submit">Buscar</button>
+        </form>
+      </div>
+  </header>
